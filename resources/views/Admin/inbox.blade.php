@@ -54,10 +54,6 @@
                 success: function(data) {
 
 
-
-
-
-
                     var i = 0;
                     while (i < data.nortifications.length) {
                         nortification = data.nortifications[i];
@@ -66,33 +62,8 @@
 
                         $('#nortificationtable').append(
                             " <tr><td><div class='icheck-primary'>" +   index +
-
-
-
-+++
-+
-+
-+
-+                                " </div> </td><td class='mailbox-star'><a href='#'><iclass='fas fa-star text-warning'></iclass=></a></td><td class='mailbox-name'><h5  ><small
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                >" +
-                            nortification.title +
+                             " </div> </td><td class='mailbox-star'><a href='#'><iclass='fas fa-star text-warning'></iclass=></a></td><td class='mailbox-name'><h5  ><small >"+
+                                  nortification.title +
                             "</small></h5></td> <td class='mailbox-subject'>" +
                             nortification.message +
                             "</td><td class='mailbox-attachment'></td><td class='mailbox-date'>" +
