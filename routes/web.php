@@ -108,9 +108,9 @@ Route::group(['middleware' => ['auth', 'pass_change']], function () {
 //auth routes
 
 
-
+Route::group(['middleware' => ['after_auth']], function () {
 Route::get('/login', [AuthController::class, 'login'])->name('login');
-
+});
 
 
 
