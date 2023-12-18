@@ -241,7 +241,7 @@
                                         <div class="modal-dialog modal-md ">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h4 class="modal-title">update indicator</h4>
+                                                    <h4 class="modal-title">Update Indicator</h4>
                                                     <button type="button" class="close" data-dismiss="modal"
                                                         aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
@@ -259,8 +259,8 @@
                                                                 <input type="hidden" name="indicator_id"
                                                                     value="{{ $indicator->indicator_id }}">
                                                                 <input type="text" value="{{ $indicator->indicator }}"
-                                                                    class="form-control @error('indicator') is-invalid @enderror"
-                                                                    name="indicator" required placeholder="indicator">
+                                                                    class="form-control" name="indicator" required
+                                                                    placeholder="indicator">
 
 
                                                             </div>
